@@ -20,6 +20,7 @@ body {
 .logo {
   height: 52px;
   width: 52px;
+  margin-bottom: 16px;
 }
 
 .heading {
