@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+/* Header section */
+.newsletter-header {
+  margin-bottom: 60px;
+}
+
+.logo {
+  height: 52px;
+  width: 52px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.description {
+  width: 720px;
+  margin: 0 auto 16px;
+  color: #6C727F;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Subscription section */
+.newsletter-subscription {
+  width: 552px;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 0 auto;
+  box-shadow: 
+    0px 20px 30px rgba(0, 0, 0, 0.03),
+    0px 8px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs */
+input[type="email"] {
+  display: block;
+  width: 504px;
+  margin: 0 auto 24px;
+  padding: 20px 10px;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+  background-color: #F9FAFB;
+  color: #394150;
+  text-align: center;
+}
+
+/* Button */
+.btn {
+  display: block;
+  width: 504px;
+  margin: 0 auto 24px;
+  padding: 20px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  background-color: #284BCE;
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* Note */
+.note {
+  font-size: 14px;
+  font-weight: 400;
+  color: #394150;
+  margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .newsletter-subscription {
+    width: 367px;
+    height: auto; /* more flexible than fixed 248px */
+  }
+
+  input[type="email"],
+  .btn {
+    width: 319px;
+  }
+}
