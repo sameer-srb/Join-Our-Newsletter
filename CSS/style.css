@@ -30,6 +30,8 @@ body {
   margin: 16px 0;
 }
 
+
+
 .description {
   width: 720px;
   margin: 0 auto;
@@ -92,27 +94,43 @@ input[type="email"] {
 
 /* ---------------- Mobile (≤640px) ---------------- */
 @media (max-width: 640px) {
+body{
+  width: 100%;
+  padding: 80px 24px;
+  text-align: center;
+}
+.newsletter-header{
 
-
+}
   .heading {
   font-size: 32px;
+  text-align: center;
+  
 }
+
 .description{
-  width: auto;
+  width: 100%;
+  margin: 0;
   font-size: 16px;
+  
 }
 input[type="email"] {
-  display: block;
-  width: 504px;
+  width: 100%;
   
 }
 
 .btn {
-  display: block;
-  width: auto;
+  width: 100%;
+  text-align: center;
 }
 .note{
   margin: 0;
+  text-align: left;
+
+}
+.newsletter-subscription{
+  width: 100%;
+  text-align: center;
 }
 }
 
