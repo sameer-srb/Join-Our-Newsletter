@@ -1,18 +1,27 @@
-/* Reset */
+/*=============== Reset Styles ===============*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+
+/*=============== Body Styles ===============*/
 body {
   font-family: "Poppins", sans-serif;
   padding: 80px 24px;
   text-align: center;
 }
 
+.newsletter-header{
+  margin-bottom: 60px;
+}
 
+
+
+/* **** =============== Newsletter Header =============== **** */
+
+/*=============== Logo ===============*/
 .logo {
   height: 52px;
   width: 52px;
@@ -20,10 +29,8 @@ body {
   margin: 0 auto;
 }
 
-.newsletter-header{
-  margin-bottom: 60px;
-}
 
+/*=============== Heading ===============*/
 .heading {
   font-size: 48px;
   font-weight: 600;
@@ -33,16 +40,17 @@ body {
 }
 
 
-
+/* =============== Description =============== */
 .description {
-  width: 720px;
+  max-width: 720px;
   margin: 0 auto;
   color: #6C727F;
   font-size: 20px;
   font-weight: 400;
 }
 
-/* Subscription section */
+
+/* =============== Subscription Box =============== */
 .newsletter-subscription {
   width: 552px;
   border-radius: 16px;
@@ -53,7 +61,8 @@ body {
     0px 8px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Inputs */
+
+/*=============== Email Input ===============*/
 input[type="email"] {
   display: block;
   width: 504px;
@@ -67,7 +76,7 @@ input[type="email"] {
 }
 
 
-/* Button */
+/*=============== Subscribe Button ===============*/
 .btn {
   display: block;
   width: 504px;
@@ -82,7 +91,8 @@ input[type="email"] {
   cursor: pointer;
 }
 
-/* Note */
+
+/*=============== Note Text ===============*/
 .note {
   font-size: 14px;
   font-weight: 400;
@@ -90,9 +100,12 @@ input[type="email"] {
   margin: 0 auto;
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
+
+
+
+/* @media (min-width: 641px) and (max-width: 1024px) {
  
-}
+} */
 
 /* ---------------- Mobile (≤640px) ---------------- */
 @media (max-width: 640px) {
@@ -101,9 +114,10 @@ input[type="email"] {
   }
 
   .description {
-    width: 100%;
+    width: auto;
     margin: 0;
     font-size: 16px;
+    text-align: center;
   }
 
   input[type="email"] {
@@ -120,7 +134,7 @@ input[type="email"] {
   }
 
   .newsletter-subscription {
-    width: 100%;
+    width: auto;
   }
 }
 
