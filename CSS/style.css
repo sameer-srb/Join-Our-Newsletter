@@ -16,7 +16,8 @@ body {
 .logo {
   height: 52px;
   width: 52px;
-  
+  display: block;
+  margin: 0 auto;
 }
 
 .newsletter-header{
@@ -27,7 +28,8 @@ body {
   font-size: 48px;
   font-weight: 600;
   color: #000;
-  margin: 15px 0;
+  margin: 16px 0;
+ 
 }
 
 
@@ -94,43 +96,32 @@ input[type="email"] {
 
 /* ---------------- Mobile (≤640px) ---------------- */
 @media (max-width: 640px) {
-body{
-  width: 100%;
-  padding: 80px 24px;
-  text-align: center;
-}
-.newsletter-header{
-
-}
   .heading {
-  font-size: 32px;
-  text-align: center;
-  
+    font-size: 32px;
+  }
+
+  .description {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .note {
+    margin: 0;
+    text-align: left;
+  }
+
+  .newsletter-subscription {
+    width: 100%;
+  }
 }
 
-.description{
-  width: 100%;
-  margin: 0;
-  font-size: 16px;
-  
-}
-input[type="email"] {
-  width: 100%;
-  
-}
-
-.btn {
-  width: 100%;
-  text-align: center;
-}
-.note{
-  margin: 0;
-  text-align: left;
-
-}
-.newsletter-subscription{
-  width: 100%;
-  text-align: center;
-}
-}
 
