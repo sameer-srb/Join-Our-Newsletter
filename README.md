@@ -17,12 +17,12 @@ A clean and modern **newsletter subscription component**  with responsive design
 
 
 ### Screenshot 📱
-![FAQ Page Screenshot](./thumbnail.jpg)  
+![FAQ Page Screenshot](./thumbnail.png)  
 
 
 ### Links 🔗
-- Live Demo: [View Project](https://your-live-demo-link.com)  
-- Source Code: [GitHub Repository](https://github.com/yourusername/faq-page)
+- Live Demo: [View Project](https://join-our-newsletter-page.netlify.app/)  
+- Source Code: [GitHub Repository](https://github.com/sameer-srb/Join-Our-Newsletter)
 
 ---
 
@@ -62,6 +62,6 @@ Feel free to open an issue or reach out.
 
 **Author :-**
 
-[![LinkedIn](https://img.icons8.com/color/40/000000/linkedin.png)](https://www.linkedin.com/in/sameer-barik-a509672ba/) - [![LinkedIn](https://img.icons8.com/color/40/00000/github.png)](https://github.com/sameer-srb) - [![LinkedIn](https://img.icons8.com/color/40/000000/twitterx.png)](https://x.com/sameer_srb)
+[![LinkedIn](https://img.icons8.com/color/40/000000/linkedin.png)](https://www.linkedin.com/in/sameer-barik-a509672ba/) - [![GitHub](https://img.icons8.com/color/40/00000/github.png)](https://github.com/sameer-srb) - [![X](https://img.icons8.com/color/40/000000/twitterx.png)](https://x.com/sameer_srb)
 
 Created by **SAMEER** - 2025
